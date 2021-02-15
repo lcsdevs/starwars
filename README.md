@@ -1,4 +1,6 @@
-Projeto desenvolvido com Javascript, utilizando o framework React juntamente com NextJS,e utilizando a api do Star Wars. O intuito é efetuar o cálculo de quantas paradas será necessária para cada nave percorrer determinada distância.
+Projeto desenvolvido com Javascript, utilizando o framework React juntamente com NextJS,e utilizando a api do Star Wars. O intuito é efetuar o cálculo de quantas paradas será necessária para cada nave percorrer determinada distância. O projeto foi elaborada para entrevista técnica para a vaga de Dev FullStack na Nata.House
+
+![alt text](assets/mobile)
 
 ## Tempo gasto
 
