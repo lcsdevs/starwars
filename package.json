@@ -8,11 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@styled-icons/styled-icon": "^10.6.3",
     "@svgr/webpack": "^5.5.0",
+    "axios": "^0.21.1",
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "styled-components": "^5.2.1"
+    "react-paginate": "^7.1.0",
+    "styled-components": "^5.2.1",
+    "styled-icons": "^10.27.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

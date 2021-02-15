@@ -3,9 +3,8 @@ import {pixelToRem} from '../../styles/globals';
 
 export const HeaderStyled = styled.header`
   display: flex;
-  position: fixed;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: ${pixelToRem(128)};
   background-color: #242424;
 
