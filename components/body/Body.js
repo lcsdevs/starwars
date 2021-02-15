@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactPaginate from 'react-paginate';
 import { BodyStyled, BodyContent, InputField, ButtonSearch, FooterBody } from './BodyStyle';
 import { getAllStarships } from '../../services/starships';
+import Starship from '../cards/Starship';
 
 export default function Body() {
   const [offset, setOffset] = useState(1);
@@ -10,7 +11,6 @@ export default function Body() {
   async function getAllStarshipsPerPage(){
     const { results } =  await getAllStarships(offset);
     setStarships(results);
-    console.log(results);
   }
 
   const handlePageClick = (e) => {
@@ -33,7 +33,7 @@ export default function Body() {
         </div>
         <div className="spaceship-content">
           {starships.map((starship) => (
-            starship.name
+            <Starship starship={starship}></Starship>
           ))}
         </div>
       </BodyContent>

@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import { pixelToRem } from '../../styles/globals';
-import { Search } from '@styled-icons/fa-solid/Search';
 
 export const BodyStyled = styled.div`
-  height: 100vh;
   width: 100vw;
   background-color: #4F4F4F;
 `;
@@ -17,8 +15,15 @@ export const BodyContent = styled.div`
     justify-content: flex-start;
   }
 
+  .spaceship-content{
+      padding-top: ${pixelToRem(32)};
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
   @media (min-width:900px) {
-    padding: ${pixelToRem(64)} ${pixelToRem(128)};
+    padding: ${pixelToRem(64)} ${pixelToRem(64)};
 
     .input-distance{
       display: grid;
@@ -30,7 +35,6 @@ export const BodyContent = styled.div`
 
     .spaceship-content{
       padding-top: ${pixelToRem(32)};
-
       display: grid;
       grid-template-columns: repeat(4, 1fr);
     }
@@ -67,12 +71,36 @@ export const ButtonSearch = styled.button`
 `;
 
 export const FooterBody = styled.footer`
-  display: grid;
-  grid-template-columns: repeat(7,10px);
+  position: fixed;
+  bottom: 0;
   width: 100vw;
   background-color: #242424;
+
   color: #FFF;
-  @media (min-width:900px) {
-    height: ${pixelToRem(32)};
+
+  ul {
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      padding-left: ${pixelToRem(10)};
+      list-style-type:none;
+  }
+
+  li {
+    padding: ${pixelToRem(8)};
+    font-size: ${pixelToRem(16)};
+    cursor: pointer;
+
+    .active{
+      background-color: #000;
+    }
+  }
+
+    @media (min-width:900px) {
+    height: ${pixelToRem(64)};
+
+    ul {
+      padding: ${pixelToRem(8)};
+    }
   }
 `;
