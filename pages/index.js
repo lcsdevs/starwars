@@ -14,10 +14,10 @@ export default function Index() {
       <title>Star Wars Starships</title>
 
       <link rel='manifest' href='/manifest.json' />
-      <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
-      <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
-      <link href='/favicon-48x48.png' rel='icon' type='image/png' sizes='48x48' />
-      <link rel='apple-touch-icon' href='/apple-icon.png'></link>
+      <link href='/public/icons/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
+      <link href='/public/icons/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
+      <link href='/public/icons/favicon-48x48.png' rel='icon' type='image/png' sizes='48x48' />
+      <link rel='/public/icons/apple-icon' href='/apple-icon.png'></link>
       <meta name='theme-color' content='#317EFB' />
     </Head>
       <Header />
