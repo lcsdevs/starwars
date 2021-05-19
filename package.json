@@ -14,11 +14,13 @@
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "next": "10.0.6",
+    "next-pwa": "^5.2.21",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-paginate": "^7.1.0",
     "styled-components": "^5.2.1",
-    "styled-icons": "^10.27.0"
+    "styled-icons": "^10.27.0",
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
